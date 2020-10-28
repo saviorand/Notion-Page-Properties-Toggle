@@ -29,9 +29,10 @@ var onPageChange = function(){
 
         // Set up the toggle button
         let toggleButton = document.createElement("button");
-        //let toggleIcon = document.createElement("i");
-        //toggleIcon.setAttribute('class', 'far fa-eye');
-        //toggleButton.appendChild(toggleIcon);
+        /* Uncomment this and include FontAwesome Icons to add an icon to the button (WIP)
+        let toggleIcon = document.createElement("i");
+        toggleIcon.setAttribute('class', 'far fa-eye');
+        toggleButton.appendChild(toggleIcon);*/
         let buttonText = "👁 Show properties";
         toggleButton.setAttribute('class', 'propertiesToggleBar');
         toggleButton.innerHTML = buttonText;

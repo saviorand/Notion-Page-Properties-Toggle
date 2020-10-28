@@ -1,4 +1,7 @@
-# Notion Layout - Chrome Extension
+# Notion Page Properties Toggle, Chrome Extension
+
+## Original README by Alexander Kazakov
+
 ## What is it?
 Chrome Extension that makes viewing Notion database pages better!
 
