@@ -1,0 +1,53 @@
+
+/* Bar button that opens / closes Notion page properties list */
+.propertiesToggleBar {
+    font-size: 16px;
+	border: solid;
+	border-color: #9b9a97;
+	color: #9b9a97;
+	border-radius: 8px;
+	border-width: 2px;
+	width: 25%;
+	background-color: white;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+    
+}
+
+.notion-peek-renderer > div:nth-child(2){
+	max-width: 1500px !important;
+	top: 30px !important;
+	left: 30px !important;
+	right: 30px !important;
+	bottom: 30px !important;
+	height: auto !important;
+}
+
+.notion-page-content .notion-selectable{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+.notion-page-content .notion-selectable > div{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+.notion-page-content .notion-selectable > div > div{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+} 
+
+.notion-page-content > div{
+	max-width: 2000px !important;
+	width: 100% !important;
+}
+
+
+/* Uncomment this to fully hide comments block 
+.notion-page-view-discussion {
+    height: 0;
+    display: none;
+} */
